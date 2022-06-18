@@ -1,4 +1,27 @@
 .bg-dif {
   background: #0e1c08 !important;
 }
+
+.search-box form {
+  width: 70%;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.search-box form input {
+  width: 90%;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 2px;
+}
+
+.search-box form button {
+  background-color: transparent;
+  border: none;
+}
 /*# sourceMappingURL=main.css.map */

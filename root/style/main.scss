@@ -1,3 +1,26 @@
-.bg-dif{
+.bg-dif {
     background: #0e1c08 !important;
+}
+
+.search-box {
+    form {
+        width: 70%;
+        border: 1px solid white;
+        display: flex;
+        justify-content: space-around;
+
+
+        input {
+            width: 90%;
+            background: transparent;
+            border: none;
+            outline: none;
+            padding: 2px;
+        }
+
+        button {
+            background-color: transparent;
+            border: none;
+        }
+    }
 }
